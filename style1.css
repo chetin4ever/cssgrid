@@ -1,0 +1,32 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1{
+    background:burlywood;
+}
+.box2{
+    background:cadetblue;
+}
+.box3{
+    background:chocolate;  
+}
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "box1 box2" "box1 box3" ;
+    
+  
+}
+.box1{
+    grid-area: box1;
+}
+.box3{
+    grid-area: box3;
+}
+.box2{
+    grid-area: box2;
+}

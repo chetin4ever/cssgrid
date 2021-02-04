@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Grid</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        /* grid-column-gap: 10px;
+        grid-row-gap: 10px; */
+        grid-gap: 10px;
+      }
+      .wrapper > div {
+        background: #eee;
+        padding: 1em;
+      }
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        aperiam animi officiis minima harum quis dolores debitis suscipit itaque
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        aperiam animi officiis minima harum quis dolores debitis suscipit itaque
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        aperiam animi officiis minima harum quis dolores debitis suscipit itaque
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo
+        reprehenderit inventore ea officiis saepe. Impedit consequatur,
+        quibusdam voluptate laborum sit atque alias esse omnis voluptas, harum
+        quaerat non dolore.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        aperiam animi officiis minima harum quis dolores debitis suscipit itaque
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        aperiam animi officiis minima harum quis dolores debitis suscipit itaque
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        aperiam animi officiis minima harum quis dolores debitis suscipit itaque
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo
+        reprehenderit inventore ea officiis saepe. Impedit consequatur,
+        quibusdam voluptate laborum sit atque alias esse omnis voluptas, harum
+        quaerat non dolore.
+      </div>
+    </div>
+  </body>
+</html>
